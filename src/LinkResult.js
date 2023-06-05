@@ -21,6 +21,7 @@ const LinkResult = ({ inputVal }) => {
     if (inputVal.length) {
       fetchData();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inputVal]);
 
   useEffect(() => {
